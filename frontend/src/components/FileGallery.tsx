@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { useAccount } from 'wagmi';
 import { useEthersSigner } from '../hooks/useEthersSigner';
 import { decryptCidWithAddress, shorten } from '../utils/encryption';
-import type { VaultFile } from '../types/vault';
+import type { VaultFile } from '../type/vault';
 import '../styles/FileGallery.css';
 
 type FileGalleryProps = {

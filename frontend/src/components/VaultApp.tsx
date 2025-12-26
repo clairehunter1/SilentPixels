@@ -5,7 +5,7 @@ import { Header } from './Header';
 import { UploadPanel } from './UploadPanel';
 import { FileGallery } from './FileGallery';
 import { CONTRACT_ABI, CONTRACT_ADDRESS, CONTRACT_CHAIN_ID } from '../config/contracts';
-import type { VaultFile } from '../types/vault';
+import type { VaultFile } from '../type/vault';
 import { useZamaInstance } from '../hooks/useZamaInstance';
 import '../styles/VaultApp.css';
 
